@@ -1,0 +1,22 @@
+# English messages for RelDiscord
+prefix: "&8[&bRelDiscord&8] &r"
+linking:
+  start: "&aTo link your account, use the following code in Discord: &b{0} {1}"
+  success: "&aSuccessfully linked with Discord user: &b{0}"
+  success-discord: "✅ Successfully linked with MC account: **{0}**"
+  already-linked: "&cThis account is already linked!"
+  invalid-code: "&cInvalid or expired code."
+  expired: "&cYour verification code has expired."
+  bot-command: ".link"
+commands:
+  no-permission: "&cYou don't have permission to use this command!"
+  reload: "&aPlugin successfully reloaded!"
+  invite: "&bJoin our Discord: &f{0}"
+  update-new-version: "&eA new version of RelDiscord is available! (&f{0}&e) Download: &fhttps://github.com/{1}/releases"
+discord:
+  status: "Online Players: {0}"
+  chat-format: "&9[Discord] &f{0}: {1}"
+  server-start: "🟢 **Server is starting...**"
+  server-stop: "🔴 **Server has stopped.**"
+  unauthorized: "❌ You don't have permission to use this command."
+  command-sent: "✅ Command sent to server: `{0}`"

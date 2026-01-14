@@ -1,0 +1,17 @@
+name: RelDiscord
+version: '1.0'
+main: com.r3linex.relDiscord.RelDiscord
+api-version: '1.21'
+prefix: RelDiscord
+authors: [r3linex]
+description: A modular Minecraft-Discord integration plugin.
+website: https://lushblocks.com
+
+commands:
+  eşle:
+    description: Start the Discord account linking process.
+    usage: /<command>
+    aliases: [link]
+  discord:
+    description: Show Discord invite link or reload the plugin.
+    usage: /<command> [reload]

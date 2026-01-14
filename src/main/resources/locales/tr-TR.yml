@@ -1,0 +1,22 @@
+# Turkish messages for RelDiscord
+prefix: "&8[&bRelDiscord&8] &r"
+linking:
+  start: "&aHesabınızı eşlemek için Discord üzerinde şu kodu kullanın: &b{0} {1}"
+  success: "&aDiscord kullanıcısı ile başarıyla eşlendi: &b{0}"
+  success-discord: "✅ MC hesabı ile başarıyla eşlendi: **{0}**"
+  already-linked: "&cBu hesap zaten eşlenmiş!"
+  invalid-code: "&cGeçersiz veya süresi dolmuş kod."
+  expired: "&cDoğrulama kodunuzun süresi doldu."
+  bot-command: ".eşle"
+commands:
+  no-permission: "&cBu komutu kullanmak için yetkiniz yok!"
+  reload: "&aEklenti başarıyla yenilendi!"
+  invite: "&bDiscord sunucumuza katılın: &f{0}"
+  update-new-version: "&eRelDiscord'un yeni bir sürümü mevcut! (&f{0}&e) İndir: &fhttps://github.com/{1}/releases"
+discord:
+  status: "Aktif Oyuncu: {0}"
+  chat-format: "&9[Discord] &f{0}: {1}"
+  server-start: "🟢 **Sunucu başlatılıyor...**"
+  server-stop: "🔴 **Sunucu durduruldu.**"
+  unauthorized: "❌ Bu komutu kullanmak için yetkiniz yok."
+  command-sent: "✅ Komut sunucuya gönderildi: `{0}`"

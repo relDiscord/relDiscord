@@ -1,0 +1,43 @@
+# ██████╗ ██████╗ ██╗     ██╗███╗   ██╗███████╗██╗  ██╗
+# ██╔══██╗╚════██╗██║     ██║████╗  ██║██╔════╝╚██╗██╔╝
+# ██████╔╝ █████╔╝██║     ██║██╔██╗ ██║█████╗   ╚███╔╝ 
+# ██╔══██╗ ╚═══██╗██║     ██║██║╚██╗██║██╔══╝   ██╔██╗ 
+# ██║  ██║██████╔╝███████╗██║██║ ╚████║███████╗██╔╝ ██╗
+# ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+#                              
+                                
+# RelDiscord Configuration
+
+# Bot Token (Keep this secret!)
+discord:
+  bot-token: "YOUR_BOT_TOKEN_HERE"
+  
+  # Channel IDs
+  channels:
+    console: "CONSOLE_CHANNEL_ID"
+    chat: "CHAT_CHANNEL_ID"
+    link-channel-id: "LINK_CHANNEL_ID"
+    
+  # Discord Invite Link
+  invite-link: "https://discord.gg/yourserver"
+    
+  # Bot Presence
+  presence:
+    # online, idle, dnd, invisible
+    status: "online"
+    # The message shown in bot activity. {0} is player count.
+    activity-format: "Online Players: {0}"
+
+  # Role ID for Discord commands execution
+  authorized-role-id: "AUTHORIZED_ROLE_ID"
+
+# Update Checker
+updates:
+  enabled: true
+
+# Language settings (en-US or tr-TR)
+language: "en-US"
+
+# Linking settings
+linking:
+  code-expiry-minutes: 5
